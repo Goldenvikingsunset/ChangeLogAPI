@@ -47,7 +47,7 @@ Write-Host "Downloading AL-Go Helper script"
 $webClient.DownloadFile('https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v1.5/AL-Go-Helper.ps1', $ALGoHelperPath)
 . $ALGoHelperPath -local
 
-$baseFolder = Join-Path $PSScriptRoot ".." -Resolve
+$baseFolder = "C:\Users\Paul Rennison\AppData\Local\Temp"
 
 Clear-Host
 Write-Host -ForegroundColor Yellow @'
