@@ -2,7 +2,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Your own server",
+            "name": "bcserver",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox",
+            "startupObjectId": 22,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10
+        },
+        {
+            "name": "bcserver",
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
