@@ -2,21 +2,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "bcserver",
-            "type": "al",
+            "name": "Your own server",
             "request": "launch",
+            "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://7049/bcserver",
+            "server": "http://bcserver",
             "serverInstance": "BC",
             "authentication": "UserPassword",
             "startupObjectId": 22,
+            "startupObjectType": "Page",
             "breakOnError": true,
-            "breakOnRecordWrite": false,
             "launchBrowser": true,
-            "enableSqlInformationDebugger": true,
             "enableLongRunningSqlStatements": true,
-            "longRunningSqlStatementsThreshold": 500,
-            "numberOfSqlStatements": 10,
+            "enableSqlInformationDebugger": true,
             "tenant": "default"
         }
     ]
