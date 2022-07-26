@@ -10,19 +10,23 @@ page 50100 ChangeLogEntryAPI
     DelayedInsert = true;
     EntityName = 'ChangeLogEntry';
     EntitySetName = 'ChangeLogEntrys';
+
     PageType = API;
     SourceTable = "Change Log Entry";
+
     ODataKeyFields = "Changed Record SystemId";
-    
+    Extensible = false;
+
     layout
     {
         area(content)
         {
             repeater(General)
             {
-                field(changedRecordSystemId; Rec."Changed Record SystemId")
+
+                field("recordID"; Rec."Record ID")
                 {
-                    Caption = 'Changed Record SystemId';
+                    Caption = 'Record ID';
                 }
                 field(tableCaption; Rec."Table Caption")
                 {
