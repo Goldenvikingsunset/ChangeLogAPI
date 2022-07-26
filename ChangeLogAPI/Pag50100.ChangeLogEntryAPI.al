@@ -14,7 +14,7 @@ page 50100 ChangeLogEntryAPI
     PageType = API;
     SourceTable = "Change Log Entry";
 
-    ODataKeyFields = "Changed Record SystemId";
+    ODataKeyFields = "Record ID";
     Extensible = false;
 
     layout
