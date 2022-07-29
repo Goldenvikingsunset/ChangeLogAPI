@@ -1,5 +1,4 @@
-# AL-Go Template
-## Per Tenant Extension Project
-This template repository can be used for managing Per Tenant Extensions for Business Central.
+# Change Log API
+## Change Log API
+This repository exposes the change log entries page as an API.
 
-Please consult https://github.com/microsoft/AL-Go/#readme for scenarios on usage
