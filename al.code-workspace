@@ -5,6 +5,9 @@
                     },
                     {
                         "path":  "ChangeLogAPI"
+                    },
+                    {
+                        "path":  "ChangeLogAPI.Test"
                     }
                 ],
     "settings":  {
